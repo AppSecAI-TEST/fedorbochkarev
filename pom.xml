@@ -16,9 +16,9 @@
 
 	<modules>
 		<module>chapter_001</module>
-
+		<module>chapter_002</module>
 	</modules>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.hamcrest</groupId>
@@ -33,7 +33,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -58,6 +58,6 @@
 				</executions>
 			</plugin>
 		</plugins>
-	</build> 
-	
+	</build>
+
 </project>
