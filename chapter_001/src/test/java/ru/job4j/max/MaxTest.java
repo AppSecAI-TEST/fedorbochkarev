@@ -29,4 +29,14 @@ public class MaxTest {
         int result = maxim.max(1, 2);
         assertThat(result, is(2));
     }
+
+    /**
+     * Тестирование мерода получания максимаьного числа
+     */
+    public void whenFirstMoreSecondAndTrird() {
+        Max maxim = new Max();
+        int result = maxim.max(3,2,1);
+        assertThat(result, is(3));
+    }
+
 }

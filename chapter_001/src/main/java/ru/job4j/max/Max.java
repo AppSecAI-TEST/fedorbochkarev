@@ -27,4 +27,12 @@ public class Max {
         }
         return count;
     }
+
+    /**
+     * Метод получения максимума из трех чисел
+     */
+    public int max(int first, int second, int third){
+        int x = Math.max(first, second);
+        return Math.max(x, third);
+    }
 }
