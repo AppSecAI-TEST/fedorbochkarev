@@ -32,7 +32,10 @@ public class Max {
      * Метод получения максимума из трех чисел
      */
     public int max(int first, int second, int third){
-        int x = Math.max(first, second);
-        return Math.max(x, third);
+        int maximum = 0;
+        if (first > second && first > third) maximum = first;
+        else if (second > first && second > third) maximum = second;
+        else maximum = third;
+        return maximum;
     }
 }

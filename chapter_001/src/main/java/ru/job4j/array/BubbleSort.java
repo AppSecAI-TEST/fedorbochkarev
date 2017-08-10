@@ -1,7 +1,7 @@
 package ru.job4j.array;
 
 /**
- * Class поворота массива.
+ * Class разварота массива.
  *
  * @author Fedor Bochkarev (mailto:fbochkarev@bk.ru)
  * @version 1
