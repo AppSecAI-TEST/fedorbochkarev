@@ -26,9 +26,6 @@ public class Point {
     }
 
     public boolean is(int a, int b) {
-        if (y == a * x + b) {
-            return true;
-        }
-        return false; // используя координаты точки и вычисления функции.
+        return this.y == this.x * a + b; // используя координаты точки и вычисления функции.
     }
 }
